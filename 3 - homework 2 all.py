@@ -212,3 +212,16 @@ if n == 4:
 if n == 5:
     print("Мизинец")
 
+# 3 - Необходимо написать программу, которая проверяет пользователя
+# на знание таблицы умножения. Пользователь сам вводит два целых
+# однозначных числа. Программа задаёт вопрос: результат умножения
+# первого числа на второе.  Пользователь должен ввести ответ и увидеть
+# на экране правильно он ответил или нет. Если нет  – показать еще
+# и правильный результат.
+# (It is necessary to write a program that checks the user for knowledge
+# of the multiplication table. The user himself enters two single-digit
+# integers. The program asks the question: the result of multiplying the
+# first number by the second. The user must enter the answer and see on
+# the screen whether he answered correctly or not. If not, show the correct
+# result as well. )
+
