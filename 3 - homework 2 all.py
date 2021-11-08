@@ -225,3 +225,16 @@ if n == 5:
 # the screen whether he answered correctly or not. If not, show the correct
 # result as well.)
 
+''' Проверяем знания таблицы умножения у пользователя
+    (Checking the user's knowledge of the multiplication table) '''
+
+a = int(input("Введите первый множитель: "))
+b = int(input("Введите второй множитель: "))
+answer = int(input("Введите ответ: "))
+
+print(a * b)
+
+if answer == a * b:
+    print("Ответ ВЕРЕН")
+elif answer != a * b:
+    print("Ответ НЕВЕРЕН, учи таблицу")
