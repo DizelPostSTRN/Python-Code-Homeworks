@@ -223,5 +223,5 @@ if n == 5:
 # integers. The program asks the question: the result of multiplying the
 # first number by the second. The user must enter the answer and see on
 # the screen whether he answered correctly or not. If not, show the correct
-# result as well. )
+# result as well.)
 
