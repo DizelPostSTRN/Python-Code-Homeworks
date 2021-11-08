@@ -179,5 +179,36 @@ elif a == 9:
 elif a == 0:
     print('долларов')
 
+# 2 - Пользователь вводит порядковый номер пальца руки.
+# Необходимо показать его название на экран.
+# (The user enters the serial number of the finger.
+# It is necessary to display its name on the screen.)
 
+''' Проверяем нумерацию пальцев правой руки
+    (Checking the numbering of the fingers of the right hand) '''
+
+print("Введите номер пальца: ")
+n = int(input())
+
+if n > 5:
+    print('Нет такого пальца')
+elif n < 1:
+    print('Нет такого пальца')
+else:
+    pass
+
+if n == 1:
+    print("Большой")
+
+if n == 2:
+    print("Указательный")
+
+if n == 3:
+    print("Средний")
+
+if n == 4:
+    print("Безымянный")
+
+if n == 5:
+    print("Мизинец")
 
